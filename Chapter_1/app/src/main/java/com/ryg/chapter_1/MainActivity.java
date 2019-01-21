@@ -1,8 +1,5 @@
 package com.ryg.chapter_1;
 
-import com.ryg.chapter_1.R;
-
-import android.R.integer;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -53,7 +50,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         Log.d(TAG, "onResume");
-        super.onStart();
+        super.onResume();
     }
 
     @Override
